@@ -1,4 +1,5 @@
 #!/bin/bash
+# simple script which count the lines of a file
 lines_in_file () {
 	cat $1 | wc -l
 }
